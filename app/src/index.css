@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #232427;
+  height: 100vh;
+  width: 100vw;
+  
+
+}
+
+/* 
+<uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 900
+*/
+.alegreya-900 {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

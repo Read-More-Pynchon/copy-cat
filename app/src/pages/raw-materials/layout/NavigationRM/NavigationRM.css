@@ -1,0 +1,41 @@
+.navigationWrapper{
+    margin: 1em;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100%;
+       
+}
+
+.navigationPill{
+    position: sticky;
+    padding-top: 0.5em;
+    width: 100%;
+}
+
+.navigationPill:hover{
+    background-color: white;
+    color: black;
+}
+
+.navigationIndex{
+    font-size: 0.7em;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.navigationIndex:hover{
+    color: black;
+}
+
+.navigationTitle{
+    font-size: 0.85em;
+    text-align: left;
+    padding-left: 1em;
+    margin-top: 3em;
+}
+
+.navigationTitle:hover{
+    color: black;
+}

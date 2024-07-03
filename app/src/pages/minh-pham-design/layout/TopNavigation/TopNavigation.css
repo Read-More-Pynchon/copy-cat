@@ -1,0 +1,19 @@
+
+#topNavigation {
+   position: sticky;
+   top: 3em;
+}
+
+
+#topNavLogo {
+   /* background-color: aquamarine;
+   */
+    height: 2em;
+    width: 2em;
+    float: left;
+
+}
+
+#topNavOptions {
+    float: right;
+}

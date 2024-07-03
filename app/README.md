@@ -1,5 +1,6 @@
 # copy-cat
- ## About Copy Cat
+
+## About Copy Cat
 
 This is a playground to explore and exhibit my skills in front end web development, consisting of:
 

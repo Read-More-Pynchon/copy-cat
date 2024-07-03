@@ -1,0 +1,18 @@
+.socialNavigation{
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;   
+   
+    width: auto;
+}
+
+.socialLogo{
+    height: 1em;
+    width: 1em;
+    margin:  2.5em 1.2em;
+    display: block;
+    color: #DA6345;
+    background-color: none;
+}
+

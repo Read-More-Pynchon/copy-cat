@@ -1,0 +1,25 @@
+.square{
+    width: 1em;
+    height: 1em;
+}
+.checkerBoard{
+    display: grid;
+    grid-template-columns: 1em 1em 1em 1em 1em 1em 1em;
+    margin: auto;
+}
+
+.checkerBoardCollection{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 400px){
+   
+    
+}
+
+
+
+

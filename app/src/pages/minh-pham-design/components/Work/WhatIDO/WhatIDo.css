@@ -1,0 +1,32 @@
+.horizontalGrid{
+    border-top: 0.3px solid #B5AB9A;
+    border-bottom: 0.3px solid #B5AB9A;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: background-color 0.7s linear 1s;  
+}
+
+.textBox{
+    transition: color 0.5s linear 1s;
+}
+
+.textBox:hover{
+    color:#0E0E0E;
+}
+
+.horizontalGrid:hover{
+    background-color: #da6345;
+    border: none;
+    width: 100%;
+}
+
+.hiddenText{
+  color:#0E0E0E;  
+  visibility: visible;
+}
+
+@media screen and (max-width: 800px){
+    .hiddenText{
+        visibility: hidden;
+    }
+}

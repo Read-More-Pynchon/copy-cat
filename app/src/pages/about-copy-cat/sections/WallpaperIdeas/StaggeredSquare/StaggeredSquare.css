@@ -1,0 +1,10 @@
+.staggered-square{
+    width: 3em;
+    height: 3em;
+    position: relative;
+}
+
+.staggered-squares{
+    overflow-y: scroll;
+}
+

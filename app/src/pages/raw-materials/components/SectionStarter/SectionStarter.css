@@ -1,0 +1,62 @@
+ .descriptor{
+   /*
+    float: left;
+   
+*/
+text-align: left;
+padding-left: 3em;
+ }
+
+ .counter{
+/*
+    float: right;
+     */
+     text-align: right;
+    padding-right: 1em;
+    justify-self: end;
+    font-size: 0.5em;
+   
+ }
+
+ .sectionIndex{
+    text-align: left;
+    padding: 1em;
+    
+    font-size: 6em;
+ }
+
+ .sectionTitle{
+    text-align: left;
+    padding: 2em 1em 2em;
+    font-size: 6em;
+ }
+
+ .separator{
+   min-width: 200px;
+   width: 10em;
+ }
+ 
+ .rounded{
+   border: 1px solid;
+   border-radius: 50%;
+   margin-top: 3em;
+   padding-top: 1em;
+   margin-bottom: 1em;
+}
+
+.circularEnds{
+   border: 1px solid;
+   border-radius: 5em;
+   padding-top: 0.3em;
+   margin-bottom: 1em;
+   width: 100%;
+   transform: translateX(-3em);
+   font-size: 0.5em;
+   display: grid;
+   grid-template-columns: auto auto;
+  
+}
+
+.bullet{
+   font-size: 3em;
+}

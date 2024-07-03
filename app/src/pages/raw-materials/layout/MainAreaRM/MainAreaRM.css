@@ -1,0 +1,128 @@
+/* Colors */
+.orange {
+    color: #EB5027;
+}
+
+.orange-background {
+    background-color: #EB5027;
+}
+
+.purple {
+    color: #510BC4;
+}
+
+.purple-background {
+    background-color: #510BC4;
+}
+
+.black {
+    color: black;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.blue {
+    color: #2B35EE;
+}
+
+.blue-background {
+    background-color: #2B35EE;
+}
+
+.rouge {
+    color: #EA3345;
+}
+
+.rouge-background {
+background-color: #EA3345;
+}
+
+.yellow {
+    color: #FFFF54;
+}
+
+.yellow-background {
+    background-color: #FFFF54;
+}
+
+.green{
+color: #75FB4C;
+}
+
+.green-background{
+background-color: #75FB4C;
+}
+
+.white {
+    color: #F2E9E2
+}
+
+.white-background {
+    background-color: #F2E9E2 ;
+}
+
+.trueWhite-background {
+    background-color: white;
+}
+
+/* Fonts */
+/*
+ <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 100 to 900
+*/
+.noto-medium {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.noto-light {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.noto-thin {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.page{
+    padding-top: 1em;
+    height: 100%;
+}
+/*
+Rounded
+*/
+.rounded{
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 3em;
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.circularEnds{
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 3em;
+    margin-bottom: 2em;
+}
+
+.mainAreaRM{
+    box-sizing: border-box;
+    width: 75%;
+    position: relative;
+    right: 0;
+    top: 0;
+    float: right;
+    padding: 0.7em;
+    margin: 1em;
+}
+

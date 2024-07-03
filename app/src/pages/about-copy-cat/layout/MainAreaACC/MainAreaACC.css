@@ -1,0 +1,68 @@
+.black-acc{
+   color: #232427;
+}
+
+.black-background-acc{
+    background-color: #232427;
+}
+
+.white-acc{
+   color: #ebeaf3;
+}
+
+.white-background-acc{
+    background-color: #ebeaf3;
+}
+
+.purple-acc{
+ color: #55008b;
+}
+
+.purple-background-acc{
+    background-color: #55008b;
+}
+
+.pink-acc{
+    color: #ff00a8;
+}
+
+.pink-background-acc{
+    background-color: #ff00a8;
+}
+
+.light-blue-acc{
+    color: #30afff;
+}
+
+.light-blue-background-acc{
+    background-color: #30afff;
+}
+
+.blue-acc{
+   color: #2324c6;
+}
+
+.blue-background-acc{
+    background-color: #2324c6;
+}
+
+.main-area-acc{
+   padding: 1em;
+   box-sizing: border-box;
+   
+}
+
+.content-area-acc{
+    width: 70%;
+    height: 100%;
+    float: right;
+    top: 0;
+    right: 0;
+    padding-left: 1em;
+    padding-top: 2em;
+    
+}
+
+.section-wrapper-acc{
+    padding: 2em;
+}
