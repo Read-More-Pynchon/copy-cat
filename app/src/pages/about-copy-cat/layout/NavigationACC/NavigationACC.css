@@ -2,9 +2,9 @@
     width: 25%;
     height: 100%;
     min-height: 100%;
-    position: sticky;
+    position: relative;
     float: left;
-    top: 0;
+    top: 5em;
     left: 0;
 }
 

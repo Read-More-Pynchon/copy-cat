@@ -1,0 +1,55 @@
+.leftTop{
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.divider{
+    color: #ebeaf3;
+}
+
+.rightBottom{
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: -2em;
+    right: 0;
+    z-index: 2;
+}
+
+.topStrip{
+ width: calc(100% - 2em);
+ height: 2em;
+ position: relative;
+ top: -2em;
+ right: -2em;
+ font-size: 1em;
+ border: 1px solid #232427;
+ color: #232427;
+ background-color: #ebeaf3;
+}
+
+.baseContainer{
+    width: calc(100% - 10em);
+    height: fit-content;
+    display: block;
+    border: 1px solid #232427;
+    position: relative;
+    left: 10em;
+    top: 0em;
+}
+.contentArea{
+    position: relative;
+    top: 0em;
+    left: 2em;
+    width: calc(100% - 4em);
+    height: fit-content;
+}
+
+.content-div-acc{
+    padding: 1em;
+}

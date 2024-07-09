@@ -96,6 +96,8 @@ background-color: #75FB4C;
 .page{
     padding-top: 1em;
     height: 100%;
+    position: relative;
+    top: 10em;
 }
 /*
 Rounded
@@ -124,5 +126,6 @@ Rounded
     float: right;
     padding: 0.7em;
     margin: 1em;
+   
 }
 

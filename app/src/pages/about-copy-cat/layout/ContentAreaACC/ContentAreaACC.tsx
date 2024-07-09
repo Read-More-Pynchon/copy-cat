@@ -1,6 +1,8 @@
 
 
+import BaseContainer from '../../sections/ComponentIdeas/Containers/BaseContainer/BaseContainer';
 import QuarterSquare from '../../sections/ComponentIdeas/Containers/QuarterSquare/QuarterSquare';
+import TitleSquare from '../../sections/ComponentIdeas/Tokens/TitleSquare/TitleSquare';
 import CheckerBoard from '../../sections/WallpaperIdeas/CheckerBoard/CheckerBoard';
 import StaggeredSquare from '../../sections/WallpaperIdeas/StaggeredSquare/StaggeredSquare';
 import '../MainAreaACC/MainAreaACC.css';
@@ -33,8 +35,18 @@ export default function ContentAreaACC() {
             <div id="component-ideas" className="blue-background-acc white-acc section-wrapper-acc">
                 <h1>Component Ideas</h1>
                 <h2>Containers</h2>
+                <h4 className="purple-acc">Base Container</h4>
+                <BaseContainer color="pink" darkMode="dark"/>
+                <br />
+                <BaseContainer strip="strip" title="Container with Title Strip - darkMode" color="light-blue" darkMode="dark"/>
+                <br />
+                <BaseContainer strip="strip" title=" 2nd Container with Title Strip - lightMode" color="light-blue" darkMode="light"/>
+                <br />
+
                 <QuarterSquare />
                 <h2>Tokens</h2>
+                <h4 className="purple-acc">Title Square</h4>
+                <TitleSquare />
             </div>
             <div id="navigation-ideas" className="purple-background-acc white-acc section-wrapper-acc">
                 <h1>Navigation Ideas</h1>
