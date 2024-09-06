@@ -44,7 +44,6 @@ export default function MainArea() {
             <Work />
             <Contact />
             
-
         </div>
 
     )
