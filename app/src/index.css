@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/*
+Alegreya - Home Page
+Jost - Minh Pham Design-
+-Noto Sans - Raw Materials
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
   box-sizing: border-box;
 }

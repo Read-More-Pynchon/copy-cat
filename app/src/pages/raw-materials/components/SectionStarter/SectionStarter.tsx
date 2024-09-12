@@ -19,7 +19,7 @@ export default function SectionStarter(props: any) {
 
     return (
 
-        
+
         <div key={sectionKey}>
             <div className={`circularEnds ${mainColor} ${backgroundColor}`}>
                 <p className="noto-medium descriptor">{descriptor}</p>

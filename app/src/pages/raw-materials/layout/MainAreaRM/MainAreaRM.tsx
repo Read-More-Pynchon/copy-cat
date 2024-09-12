@@ -8,6 +8,12 @@ import { useRawMaterialsContext } from '../../contexts/RawMaterialsContext';
 import SectionStarter from '../../components/SectionStarter/SectionStarter';
 import Hero from '../../sections/Hero/Hero';
 import Hello from '../../sections/Hello/Hello';
+import Approach from '../../sections/Approach/Approach';
+import UnusualIndex from '../../sections/UnusualIndex/UnusualIndex';
+import FooterRM from '../FooterRM';
+import Careers from '../../sections/Careers/Careers';
+import Contact from '../../sections/Contact/Contact';
+import Talent from '../../sections/Talent/Talent';
 
 export default function MainAreaRM() {
 
@@ -27,9 +33,15 @@ export default function MainAreaRM() {
             <div className="mainAreaRM white-background">
             <Hero />
             <Hello />
-                {sectionHeaders}
+            <Approach />
+            <Talent />
+            <Careers />
+            <Contact />
+            <UnusualIndex />
+            <FooterRM />
             </div>
             <NavigationRM />
+            
         </div>
     )
 }

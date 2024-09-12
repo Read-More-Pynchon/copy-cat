@@ -1,10 +1,10 @@
 
 
 
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
+import Footer from './Footer';
+import Header from './Header';
 import Navigation from './Navigation/Navigation';
-import Main from './Main/Main';
+import Main from './Main';
 
 export default function Layout() {
 

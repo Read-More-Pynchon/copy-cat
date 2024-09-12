@@ -1,5 +1,5 @@
 
-import copyCatLogo from '../../assets/copyCatLogo.png';
+import copyCatLogo from '../assets/copyCatLogo.png';
 
 export default function Header(){
 
