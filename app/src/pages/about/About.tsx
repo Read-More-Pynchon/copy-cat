@@ -3,14 +3,12 @@
 export default function About() {
 
     return (
-        <div className="p-3">
+        <div className="p-6 m-6 rounded-3xl bg-purple">
             <h1 className="text-3xl text-near-white m-3">About Copy Cat</h1>
             <p className="text-near-white">This is a playground to explore and exhibit my skills in front end web development, consisting of </p>
-            <h1>About Copy Cat</h1>
-            <p>This is a playground to explore and exhibit my skills in front end web development, consisting of </p>
             <ul className="text-purple list-disc">
-                <li className="text-rouge">Producing accurate as possible copies of websites that I have seens and liked</li>
-                <li className="text-green">Showcasing and applying them to my own website as part of the design process</li>
+                <li className="text-blue-light">Producing accurate as possible copies of websites that I have seens and liked</li>
+                <li className="text-blue-light">Showcasing and applying them to my own website as part of the design process</li>
 
             </ul>
             <p className="text-near-white">All of this at present is work in progress but it will show something i guess</p>

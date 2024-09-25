@@ -6,54 +6,54 @@ export const sectionDetails: Section[] = [
         sectionIndex: "00",
         title: "Raw Materials",
         mainColor: "black",
-        backgroundColor: "trueWhite-background"
+        backgroundColor: "white"
     },
     {
         sectionIndex: "01",
         title: "Hello",
         mainColor: "white",
-        backgroundColor: "orange-background"
+        backgroundColor: "orange"
     },
 
     {
         sectionIndex: "02",
         title: "Approach",
         mainColor: "white",
-        backgroundColor: "purple-background"
+        backgroundColor: "purple"
     },
 
     {
         sectionIndex: "03",
         title: "Work",
         mainColor: "white",
-        backgroundColor: "black-background"
+        backgroundColor: "black"
     },
 
     {
         sectionIndex: "04",
         title: "Talent",
         mainColor: "white",
-        backgroundColor: "blue-background"
+        backgroundColor: "blue"
     },
 
     {
         sectionIndex: "05",
         title: "Careers",
         mainColor: "white",
-        backgroundColor: "rouge-background"
+        backgroundColor: "red"
     },
 
     {
         sectionIndex: "06",
         title: "Contact",
         mainColor: "black",
-        backgroundColor: "yellow-background"
+        backgroundColor: "yellow"
     },
 
     {
         sectionIndex: "07",
         title: "Unusual Index",
         mainColor: "black",
-        backgroundColor: "green-background"
+        backgroundColor: "green"
     }
 ];

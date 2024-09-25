@@ -15,20 +15,13 @@ export default function Tanet() {
                         <p className="rounded-full w-fit h-fit m-6 pl-3 pr-3 border border-black text-center text-black font-rm-noto">
                             01
                         </p>
-                        <p className="text-9xl">Product design needs to be a creative endeavor.</p>
+                        <p className="text-9xl">Finding the best talent in the world and helping them make the best work of their lives.</p>
                     </span>
                     <br />
                 </div>
                 <div className="text-3xl font-rm-noto">
-                    <p className="text-blue">Second Tabs</p>
-                    <br />
-                    ( Everywhere Company )
-                    01
-                    ( The Academy )
-                    02
-                    ( The Creative Community )
-                    03
-                    <div className="tab-head grid grid-cols-4">
+                    
+                    <div className="tab-head grid grid-cols-3">
 
                         <div className="rounded-ss-lg rounded-se-lg border-2 border-b-0 border-black  p-2 hover:bg-rm-blue">
                             <div className="grid grid-cols-2">

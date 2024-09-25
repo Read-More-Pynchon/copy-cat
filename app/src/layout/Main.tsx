@@ -4,6 +4,7 @@ import MainArea from "../pages/minh-pham-design/layout/MainAreaMPD/MainAreaMPD";
 import MainAreaRM from "../pages/raw-materials/layout/MainAreaRM/MainAreaRM";
 import TheVerge from "../pages/the-verge/TheVerge";
 import RawMaterials from "../pages/raw-materials/RawMaterials";
+import MinhPhamDesign from "../pages/minh-pham-design/MinhPhamDesign";
 
 
 
@@ -17,7 +18,7 @@ export default function Main(){
                     element={<About />} />
                 <Route
                     path="/ming-pham-design"
-                    element={<MainArea />}
+                    element={<MinhPhamDesign />}
                 />
                 <Route
                     path="/raw-materials"
