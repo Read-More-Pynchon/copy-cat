@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/read-more-pynchon.github.io/copy-cat/static/css/main.670c86ff.css",
+    "main.js": "/read-more-pynchon.github.io/copy-cat/static/js/main.5f5389d4.js",
+    "static/js/453.a6a97343.chunk.js": "/read-more-pynchon.github.io/copy-cat/static/js/453.a6a97343.chunk.js",
+    "static/media/metaGlasses.png": "/read-more-pynchon.github.io/copy-cat/static/media/metaGlasses.090c630065ac22d8f17b.png",
+    "static/media/openAI.png": "/read-more-pynchon.github.io/copy-cat/static/media/openAI.2950c1d1b1922083eecf.png",
+    "static/media/appraoch-block-1.png": "/read-more-pynchon.github.io/copy-cat/static/media/appraoch-block-1.183ebf0e8e4d60866608.png",
+    "static/media/logo.gif": "/read-more-pynchon.github.io/copy-cat/static/media/logo.4c96538d888e269667e1.gif",
+    "static/media/copyCatLogo.png": "/read-more-pynchon.github.io/copy-cat/static/media/copyCatLogo.5fec820a8db46b3fd217.png",
+    "static/media/basketball.png": "/read-more-pynchon.github.io/copy-cat/static/media/basketball.a82034c74fa6b506007f.png",
+    "static/media/instagram.png": "/read-more-pynchon.github.io/copy-cat/static/media/instagram.e2a6f6070226cdc3a0d9.png",
+    "static/media/unusual-index-media-block-1.svg": "/read-more-pynchon.github.io/copy-cat/static/media/unusual-index-media-block-1.a24e6420f90750563a9dec4e05270098.svg",
+    "index.html": "/read-more-pynchon.github.io/copy-cat/index.html",
+    "main.670c86ff.css.map": "/read-more-pynchon.github.io/copy-cat/static/css/main.670c86ff.css.map",
+    "main.5f5389d4.js.map": "/read-more-pynchon.github.io/copy-cat/static/js/main.5f5389d4.js.map",
+    "453.a6a97343.chunk.js.map": "/read-more-pynchon.github.io/copy-cat/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670c86ff.css",
+    "static/js/main.5f5389d4.js"
+  ]
+}
