@@ -1,7 +1,6 @@
 import FooterV from "./layout/FooterV";
 import HeaderV from "./layout/HeaderV";
 import MainAreaV from "./layout/MainAreaV";
-import NavigationV from "./layout/NavigationV";
 import Creators from "./sections/Creators";
 import Entertainment from "./sections/Entertainment";
 import FrontPage from "./sections/FrontPage";

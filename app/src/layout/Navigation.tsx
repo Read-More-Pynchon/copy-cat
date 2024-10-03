@@ -9,9 +9,10 @@ export default function Navigation(){
         <div id="homeTabs" className="w-full justify-items-center mt-5 pt-12 bg-near-black inline-flex">
             <nav>
                 <Link to={"/"} className="sm:m-1 md:m-2 lg:m-4 xl:m-5 sm:text-sm md:text-lg lg:text-2xl text-near-white p-1 rounded bg-dark-blue">About</Link>
+                <Link to={"/the-verge"} className="sm:m-1 md:m-2 lg:m-4 xl:m-5 sm:text-sm md:text-lg lg:text-2xl text-near-white p-1 rounded bg-brown">The Verge</Link>
                 <Link to={"/ming-pham-design"} className="sm:m-1 md:m-2 lg:m-4 xl:m-5 sm:text-sm md:text-lg lg:text-2xl text-near-white p-1 rounded bg-purple border-none">Minh Pham Design</Link>
                 <Link to={"/raw-materials"} className="sm:m-1 md:m-2 lg:m-4 xl:m-5 sm:text-sm md:text-lg lg:text-2xl text-near-white p-1 rounded bg-rouge">Raw Materials</Link>
-                <Link to={"/the-verge"} className="sm:m-1 md:m-2 lg:m-4 xl:m-5 sm:text-sm md:text-lg lg:text-2xl text-near-white p-1 rounded bg-brown">The Verge</Link>
+               
             </nav>
         </div>
         

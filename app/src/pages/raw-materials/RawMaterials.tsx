@@ -1,5 +1,4 @@
 import FooterRM from "./layout/FooterRM";
-import MainAreaRM from "./layout/MainAreaRM/MainAreaRM";
 import NavigationRM from "./layout/NavigationRM/NavigationRM";
 import Approach from "./sections/Approach/Approach";
 import Careers from "./sections/Careers/Careers";

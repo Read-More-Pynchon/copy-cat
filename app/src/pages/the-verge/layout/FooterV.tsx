@@ -1,7 +1,7 @@
 
 
 export default function FooterV() {
-    const date = new Date().getFullYear();
+
 
     return (
         <footer className="w-full h-fit p-3 mb-24 bg-verge-black bottom-0 ">

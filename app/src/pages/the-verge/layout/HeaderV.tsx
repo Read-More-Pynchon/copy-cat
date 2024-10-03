@@ -1,7 +1,6 @@
 
 
-import { ReactEventHandler, ReactNode, useState, useEffect } from 'react';
-import logo from '../assets/vergeLogo.svg'
+import { useState, useEffect } from 'react';
 
 
 
