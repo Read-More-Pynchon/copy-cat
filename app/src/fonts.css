@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'gp-geosans';
+    src: url('./pages/golden-plains/assets/fonts/GeosansLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'gp-strasua';
+    src: url('./pages/golden-plains/assets/fonts/Strasua.otf') format('truetype')
+}

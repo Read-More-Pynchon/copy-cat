@@ -11,8 +11,25 @@ module.exports = {
         "mpd-jost": ['Jost', 'sans-serif'],
         "rm-noto": ['Noto Sans JP', 'sans-serif'],
         "verge-oswald": ["Oswald", 'sans-serif'],
+        "gp-text": ['gp-geosans', 'sans-serif'],
+        "gp-title": ['gp-strasua', 'sans-serif']
 
-      }
+      },
+
+      keyframes: {
+        gpTree: {
+          '0%': { backgroundColor: 'theme( "colors.gp-red.600")' },
+          '15%': { backgroundColor: 'theme( "colors.gp-yellow.400")' },
+          '35%': { backgroundColor: 'theme( "colors.gp-green.600")' },
+          '55%': { backgroundColor: 'theme("colors.gp-light-blue.600")' },
+          '75%': { backgroundColor: 'theme( "colors.gp-dark-blue.950")' },
+          '90%': { backgroundColor: 'theme("colors.gp-red.600")' },
+        },
+
+      },
+      animation: {
+        'red': 'gpTree 10s ease-out 0.5s 2 normal',
+      },
 
     },
     colors: {
@@ -43,11 +60,18 @@ module.exports = {
       //verge colors
       'verge-black': { DEFAULT: '#131313', '50': '#f6f6f6', '100': '#e7e7e7', '200': '#d1d1d1', '300': '#b0b0b0', '400': '#888888', '500': '#6d6d6d', '600': '#5d5d5d', '700': '#4f4f4f', '800': '#454545', '900': '#3d3d3d', '950': '#131313', },
       'verge-aqua': { DEFAULT: '#80fcd3', '50': '#eafff8', '100': '#ccffec', '200': '#80fcd3', '300': '#5ff6ce', '400': '#20e7b8', '500': '#00cfa3', '600': '#00a886', '700': '#00876f', '800': '#006a59', '900': '#00574a', '950': '#00312b', },
-      'verge-purple': {DEFAULT: '#450adf','50': '#f2f1ff', '100': '#e8e6ff', '200': '#d4d0ff', '300': '#b3aaff', '400': '#8f79ff', '500': '#6c43ff', '600': '#5c1dff', '700': '#4d0cf5', '800': '#450adf', '900': '#360aa8', '950': '#1d0273', },
+      'verge-purple': { DEFAULT: '#450adf', '50': '#f2f1ff', '100': '#e8e6ff', '200': '#d4d0ff', '300': '#b3aaff', '400': '#8f79ff', '500': '#6c43ff', '600': '#5c1dff', '700': '#4d0cf5', '800': '#450adf', '900': '#360aa8', '950': '#1d0273', },
       'verge-pink': { DEFAULT: '#f6c4e5', '50': '#fcf3f9', '100': '#fbe8f5', '200': '#f6c4e5', '300': '#f4addb', '400': '#eb7bc0', '500': '#e153a6', '600': '#cf3386', '700': '#b3236c', '800': '#94205a', '900': '#7c1f4d', '950': '#4b0c2b', },
       'verge-yellow': { DEFAULT: '#e4ff37', '50': '#ffffe4', '100': '#fcffc4', '200': '#f8ff90', '300': '#eeff50', '400': '#e4ff37', '500': '#c1e600', '600': '#96b800', '700': '#718b00', '800': '#596d07', '900': '#4b5c0b', '950': '#273400', },
       'verge-orange': { DEFAULT: '#eb4f27', '50': '#fef4ee', '100': '#fce6d8', '200': '#f9c8af', '300': '#f4a27d', '400': '#ef7148', '500': '#eb4f27', '600': '#dc341a', '700': '#b72517', '800': '#91201b', '900': '#751d19', '950': '#3f0b0b', },
       'verge-nav-purple': { DEFAULT: '#4b0af5', '50': '#f2f1ff', '100': '#e8e6ff', '200': '#d4d0ff', '300': '#b3aaff', '400': '#8f79ff', '500': '#6c44ff', '600': '#5c1eff', '700': '#4b0af5', '800': '#4009ce', '900': '#360aa8', '950': '#1d0372', },
+      //golden plains colors
+      'gp-green': { DEFAULT: '#00b35f', '50': '#eefff6', '100': '#d7ffeb', '200': '#b2ffd9', '300': '#76ffbd', '400': '#33f599', '500': '#09de79', '600': '#00b35f', '700': '#049150', '800': '#0a7142', '900': '#0a5d38', '950': '#00341d', },
+      'gp-red': { DEFAULT: '#ff3e75', '50': '#fff0f3', '100': '#ffe2e8', '200': '#ffcad7', '300': '#ff9fb6', '400': '#ff6990', '500': '#ff3e75', '600': '#ed115a', '700': '#c8084d', '800': '#a80947', '900': '#8f0c43', '950': '#500120', },
+      'gp-yellow': { DEFAULT: '#fecf0a', '50': '#fefce8', '100': '#fffbc2', '200': '#fff388', '300': '#ffe444', '400': '#fecf0a', '500': '#eeb704', '600': '#cd8d01', '700': '#a46304', '800': '#874e0c', '900': '#734010', '950': '#432105', },
+      'gp-dark-blue': { DEFAULT: '#003384', '50': '#e9f8ff', '100': '#cef0ff', '200': '#a7e6ff', '300': '#6bdaff', '400': '#26c1ff', '500': '#0099ff', '600': '#006fff', '700': '#0054ff', '800': '#0047e6', '900': '#0042b3', '950': '#003384', },
+      'gp-light-blue': { DEFAULT: '#2b65f3', '50': '#eef6ff', '100': '#dae9ff', '200': '#bdd9ff', '300': '#8fc2ff', '400': '#5aa0ff', '500': '#347bfd', '600': '#2b65f3', '700': '#1646df', '800': '#1939b4', '900': '#1a358e', '950': '#152256', },
+
     }
   },
   plugins: [],
