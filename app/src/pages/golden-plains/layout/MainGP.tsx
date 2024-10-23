@@ -48,20 +48,14 @@ export default function MainGP() {
 
     return (
         <div className="font-gp-text text-gp-green text-center my-3">
+            
+            
             <Hero />
-            <p className="text-semibold text-gp-red font-gp-title">
-                Main - Golden Plains
-            </p>
-            <br />
-
-            <img src={logo} alt="Golden Plains Logo" className="center w-72 md:w-96  xl:hidden h-auto m-auto"></img>
-            Golden Plains Logo
-
             <p className="font-bold uppercase">March 8, 9 & 10, 2025
                 Meredith Supernatural
                 Amphitheatre</p>
             <br />
-            <div className="mb-48 mt-24 md:text-3xl font-bold">
+            <div className="mb-48 md:text-3xl font-bold">
                 <h1 className="font-gp-title text-gp-red text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center m-auto">
                     LET GOLDEN SHAKE
                 </h1>
@@ -123,7 +117,9 @@ export default function MainGP() {
 
             <div className="grid grid-cols-12">
                 <div className="col-span-12 md:col-span-6">
-                    <p className="text-gp-yellow">Equal layout left image</p>
+                <img src="https://content.mmf.com.au/wp-content/uploads/sites/24/2024/09/GP2025_OsloDavis_NL1_3.gif?x58291" 
+                    alt="Oslo Gif trial second"
+                    className="w-full h-auto bg-transparent" />
                     <h1 className="font-gp-title text-gp-red text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center m-auto">
                         FUNDAMENTAL
                     </h1>
@@ -137,7 +133,8 @@ export default function MainGP() {
                     </div>
                 </div>
                 <div className="col-span-12 md:col-span-6">
-                    <p className="text-gp-yellow">Equal layout right image</p>
+                <img src="https://content.mmf.com.au/wp-content/uploads/sites/24/2024/09/GP2025_OsloDavis_NL1_1.gif?x58291" alt="Oslo Gif trial first"
+                    className="w-full h-auto bg-transparent" />
                     <h1 className="font-gp-title text-gp-red text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center m-auto">LOCAL KNOWLEDGE</h1>
                     <p>
                         Every ticket assists regional organisations doing great work in the district. At the festival, nourishment from the Tucker Tent helps good things happen for many local groups.
@@ -152,7 +149,9 @@ export default function MainGP() {
             <div className="h-48"></div>
             <div className="grid grid-cols-12">
                 <div className="md:col-span-4">
-                    image left
+                   
+                    <img src="https://content.mmf.com.au/wp-content/uploads/sites/24/2024/09/GP2025_OsloDavis_NL1_1.gif?x58291" alt="Oslo Gif trial first"
+                    className="w-full h-auto bg-transparent" />
                 </div>
                 <div className="col-span-12 md:col-span-4">
                     <h1 className="font-gp-title text-gp-red text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center m-auto">GOLDEN HALLMARK</h1>
@@ -164,7 +163,10 @@ export default function MainGP() {
                     <p> I hope to enjoy the pleasure of your company this March.</p>
                 </div>
                 <div className="md:col-span-4">
-                    image right
+                   
+                    <img src="https://content.mmf.com.au/wp-content/uploads/sites/24/2024/09/GP2025_OsloDavis_NL1_3.gif?x58291" 
+                    alt="Oslo Gif trial second"
+                    className="w-full h-auto bg-transparent" />
                 </div>
 
             </div>

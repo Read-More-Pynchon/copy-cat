@@ -18,17 +18,17 @@ module.exports = {
 
       keyframes: {
         gpTree: {
-          '0%': { backgroundColor: 'theme( "colors.gp-red.600")' },
-          '15%': { backgroundColor: 'theme( "colors.gp-yellow.400")' },
-          '35%': { backgroundColor: 'theme( "colors.gp-green.600")' },
-          '55%': { backgroundColor: 'theme("colors.gp-light-blue.600")' },
-          '75%': { backgroundColor: 'theme( "colors.gp-dark-blue.950")' },
-          '90%': { backgroundColor: 'theme("colors.gp-red.600")' },
+          '0%': { fill: 'theme( "colors.gp-red.600")' },
+          '15%': { fill: 'theme( "colors.gp-yellow.400")' },
+          '35%': { fill: 'theme( "colors.gp-green.600")' },
+          '55%': { fill: 'theme("colors.gp-light-blue.600")' },
+          '75%': { fill: 'theme( "colors.gp-dark-blue.950")' },
+          '90%': { fill: 'theme("colors.gp-red.600")' },
         },
 
       },
       animation: {
-        'red': 'gpTree 10s ease-out 0.5s 2 normal',
+        gpTree: 'gpTree 10s ease-out 0.5s 2 normal',
       },
 
     },

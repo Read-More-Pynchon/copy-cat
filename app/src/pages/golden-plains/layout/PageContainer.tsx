@@ -14,6 +14,8 @@ export default function PageContainer() {
 
 
     return (
+        <>
+       
         <div className="bg-gp-dark-blue w-full h-full min-h-screen p-3 sm:px-6 md:px-12 lg:px-48">
            
                 <HeaderGP />
@@ -21,7 +23,8 @@ export default function PageContainer() {
                 <FooterGP />
                
             </div>
-
+            <div className="bg-near-black w-full h-32 fixed bottom-9 z-40"></div>
+            </>
      
     )
 }

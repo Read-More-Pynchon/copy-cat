@@ -24,7 +24,7 @@ export default function HeaderGP() {
 
     const topNavText: MenuItem[] = [
         { item: "What Goes On", url: "#!" },
-        { item: "Who's Playing", url: "#!" },
+        { item: "Who's Playing", url: "#whos-playing" },
         { item: "The Sup'", url: "#!" },
         { item: "March 8, 9 & 10, 2025 Meredith Supernatural Amphitheatre", url: "#!" },
         { item: "Ticket Info", url: "#!" },
@@ -70,7 +70,7 @@ export default function HeaderGP() {
 
     const navigationText: NavigationItem[] = [
         {
-            title: { item: "Who's Playing", url: "#!" },
+            title: { item: "Who's Playing", url: "#/whos-playing" },
         },
         {
             title: { item: "What Goes On", url: "#!" },
@@ -305,7 +305,7 @@ export default function HeaderGP() {
             <div>
                 {displayNavigation}
             </div>
-            <div className="hidden md:block bg-gradient-to-t from-gp-light-blue fixed bottom-0 p-6 pt-12">
+            <div className="hidden md:block bg-gradient-to-t from-gp-light-blue via-gp-ligh-blue fixed bottom-40 p-6 pt-12">
                 <div className="grid grid-cols-12">
                     <div className="col-span-4 grid grid-cols-3">
                         {bottomNavigationLeft}

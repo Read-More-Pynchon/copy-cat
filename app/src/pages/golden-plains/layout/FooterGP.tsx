@@ -92,7 +92,6 @@ export default function FooterGP() {
 
     return (
         <div className="text-gp-green font-gp-text">
-            <p className="text-white">Footer</p>
             <div className="grid grid-cols-12 my-12 p-3">
                 {footerMenus}
             </div>
