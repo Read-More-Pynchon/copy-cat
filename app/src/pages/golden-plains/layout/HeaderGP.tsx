@@ -224,11 +224,11 @@ export default function HeaderGP() {
         }
     ];
 
-    const navigationItems = navigationText.map(({title, subtitles}, index) => {
+    const navigationItems = navigationText.map(({ title, subtitles }, index) => {
         let subtitleItems;
         if (subtitles) {
-            subtitleItems = subtitles.map(({item, url}, index) => {
-                return <a href={url} className="hover:text-gp-green my-2">{item}</a>
+            subtitleItems = subtitles.map(({ item, url }, index) => {
+                return <a href={url} className="hover:text-gp-green my-2 block">{item}</a>
             });
         }
         return (
@@ -290,16 +290,29 @@ export default function HeaderGP() {
         }
     }
 
+    //fill="#000000" width="800px" height="800px"
     const displayNavigation = navigation();
 
     return (
         <>
             <div className='w-full h-fit p-6 pb-1 m-6 bg-gp-dark-blue text-right'>
-                <div className="hidden md:flex">
+                <div className="hidden md:inline-flex w-full">
                     {topNavigation}
                 </div>
-                <div className="block md:hidden font-gp-text text-gp-green text-6xl underline decoration-white">
-                    <button onClick={toggleNavigation} className="text-7xl"> = </button>
+                <div className="grid grid-cols-6 md:hidden fixed top-0 z-40">
+                    <div className="col-span-5">
+                    </div>
+                    <div className="col-span-1 relative">
+                        <svg  fill="#000000" width="64px" height="164px" viewBox="0 0 52 52" data-name="Layer 1" id="Layer_1" 
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="fill-gp-green w-fit h-auto"
+                        onClick={toggleNavigation}
+                        >
+                            <path d="M50,12.5H2a2,2,0,0,1,0-4H50a2,2,0,0,1,0,4Z" />
+                            <path d="M50,28H2a2,2,0,0,1,0-4H50a2,2,0,0,1,0,4Z" />
+                            <path d="M50,43.5H2a2,2,0,0,1,0-4H50a2,2,0,0,1,0,4Z" />
+                        </svg>
+                    </div>
                 </div>
             </div>
             <div>

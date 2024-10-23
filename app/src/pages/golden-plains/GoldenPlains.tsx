@@ -12,7 +12,7 @@ export default function GoldenPlains() {
             <div className="bg-rouge rounded-3xl m-3 p-3">
                 <h1 className="text-3xl font-extrabold text-near-white font-rm-noto">Golden Plains 2025</h1>
                 <p className="pb-6">Please find the link to the actual site below:</p>
-                <a href="https://goldeplains.com.au"
+                <a href="https://goldenplains.com.au"
                     className="underline underline-offset-8 decoration-rm-orange font-rm-noto text-purple"
                     target="_blank" rel="noreferrer">
                     Golden Plains 2025 site - release 16 October 2024

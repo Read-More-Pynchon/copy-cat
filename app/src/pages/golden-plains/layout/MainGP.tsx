@@ -8,43 +8,7 @@ import WhosPlaying from '../sections/WhosPlaying/WhosPlaying';
 
 export default function MainGP() {
 
-    const lineUpText = ['PJ Harvey', 'Fontaines D.C.', '2manydjs', 'Wet Kiss', 'Magdalena Bay', 'Osees', ' Thelma Plum', ' Kneecap', ' Durand Jones & The Indications', ' Hermanos Gutiérrez', ' Bahamadia', ' Grace Cummings', ' Bonny Light Horseman', ' Ela Minus', ' Mulga Bore Hard Rock', ' Adriana', ' Teether & Kuya Neil', ' CCL', ' Skeleten', ' Zjoso', ' Jada Weazel', ' Elliot & Vincent', ' Storytelling with Uncle Barry', ' Sun Ra Arkestra']
-
-    const lineUpDisplayItems = lineUpText.map((artist, index) => {
-        switch (index % 4) {
-            case 0:
-                return (
-                    <h1 className="font-gp-title text-gp-green text-xl lg:text-6xl uppercase text-center">
-                        {artist}
-                    </h1>
-                );
-            case 1:
-                return (
-                    <h1 className="font-gp-title text-gp-red text-xl lg:text-6xl uppercase text-center">
-                        {artist}
-                    </h1>
-                );
-            case 2:
-                return (
-                    <h1 className="font-gp-title text-gp-yellow text-xl lg:text-6xl uppercase text-center">
-                        {artist}
-                    </h1>
-                );
-            case 3:
-                return (
-                    <h1 className="font-gp-title text-gp-dark-blue text-xl lg:text-6xl uppercase text-center">
-                        {artist}
-                    </h1>
-                );
-            default:
-                return (
-                    <h1 className="font-gp-title text-gp-green text-xl lg:text-6xl uppercase text-center">
-                        {artist}
-                    </h1>
-                );
-        }
-
-    })
+   
 
     return (
         <div className="font-gp-text text-gp-green text-center my-3">
@@ -148,7 +112,7 @@ export default function MainGP() {
 
             <div className="h-48"></div>
             <div className="grid grid-cols-12">
-                <div className="md:col-span-4">
+                <div className="hidden md:block md:col-span-4">
                    
                     <img src="https://content.mmf.com.au/wp-content/uploads/sites/24/2024/09/GP2025_OsloDavis_NL1_1.gif?x58291" alt="Oslo Gif trial first"
                     className="w-full h-auto bg-transparent" />
@@ -162,7 +126,7 @@ export default function MainGP() {
                     <br />
                     <p> I hope to enjoy the pleasure of your company this March.</p>
                 </div>
-                <div className="md:col-span-4">
+                <div className="hidden md:block md:col-span-4">
                    
                     <img src="https://content.mmf.com.au/wp-content/uploads/sites/24/2024/09/GP2025_OsloDavis_NL1_3.gif?x58291" 
                     alt="Oslo Gif trial second"
