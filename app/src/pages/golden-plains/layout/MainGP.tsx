@@ -89,7 +89,7 @@ export default function MainGP() {
                 </p>
             </div>
             <div>
-                <img src={sup} alt="THe Supernatural Amphitheatre" className="w-full h-auto rounded" />
+                <img src={sup} alt="THe Supernatural Amphitheatre" className="w-full h-auto" />
             </div>
 
             <div className="mb-48 mt-24 md:text-3xl font-bold grid grid-cols-12">
@@ -119,7 +119,7 @@ export default function MainGP() {
                 </div>
             </div>
              <WhosPlaying />
-
+            <div className="h-48"></div>
 
             <div className="grid grid-cols-12">
                 <div className="col-span-12 md:col-span-6">
@@ -146,9 +146,10 @@ export default function MainGP() {
                     </p>
                 </div>
             </div>
-
+            <div className="h-48"></div>
             <img src={greenLight} alt="Green Light" className="opacity-40 w-full h-auto rounded" />
 
+            <div className="h-48"></div>
             <div className="grid grid-cols-12">
                 <div className="md:col-span-4">
                     image left

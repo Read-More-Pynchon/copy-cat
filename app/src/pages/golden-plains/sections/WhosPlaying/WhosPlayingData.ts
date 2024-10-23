@@ -25,7 +25,7 @@ import twomanydjs from '../../assets/artists/2manydjs.png';
 
 
 
-interface ArtistCard {
+export interface ArtistCard {
     name: string,
     bio: string,
     artistImage: any
@@ -36,80 +36,77 @@ export const artistCards: ArtistCard[] = [
         name: 'PJ Harvey',
         artistImage: pjHarvey,
         bio: `      
-        <p>30 years ago Aunty cracked open a good fortune cookie, and finally the prophecy is manifest:</p>
-        <br />
-        <p>The one and only Polly Jean. On the one and only stage.</p>
-        <br/>
-        <p>A boundary-dissolving icon. Rockstar redefined.</p>
-        <br/>
-        <p>Let Golden Shake.</p>
-        <br />
-        <p className="text-gp-red">Youtube link to 50ft Queenie by PJ Harvey</p>
-        <br/>
-        <p>PJ Harvey is a category of one.<</p>
-        <br/>
-        <p>Lurid and petulant on Rid of Me, sleek and melodic on Stories From The City, haunting and histrionic on 
-        Let England Shake. Each new record weaving a sonic netherworld, strung together with its own lore – 
-        her music a disguise and a guise, building the ever-evolving enigma of the farm girl from Dorset.</p>
-        <br />
-        <p>Down By The Water. To Bring You My Love. Man-Size. 50ft Queenie. Good Fortune. Angelene.
         
-        <a className=""Decades of music shaped by What Polly Did Next.
-        
-        <p className="text-gp-red">Youtube link to Down By The Water by PJ Harvey</p>
-        
-        <p><italic>And I feel like<br />
-        Some bird of paradise</italic></p>
-        <br />
-        <p>Guitar, saxophone, piano, autoharp, violin, harmonica. Two books of poetry. Two Mercury Prizes. It’s all within her grasp.</p>
-        
-        <p>Of late, PJ continues to unfurl in the <a href="https://pitchfork.com/reviews/albums/pj-harvey-i-inside-the-old-year-dying/" 
-        target="_blank" rel="noreferrer" className"text-underline">hallucinatory dreamworld of 2023’s <italic>I Inside The Old Year Dying.</italic</p>
-        <br />
-        <a href="https://www.theguardian.com/music/2022/apr/24/pj-harvey-poetry-dorset-orlam-interview“ 
-        target="_blank" rel="noreferrer" className"text-underline">
-        I’ve never seen a more powerful presence on stage”
-        </a>
-        <br />
-        <p>Uh Huh.</p>
-        <br />
-        <p>PJ Harvey. Sunday night at Golden XVII.</p>
-        
+
+30 years ago Aunty cracked open a good fortune cookie, and finally the prophecy is manifest:
+
+The one and only Polly Jean. On the one and only stage.
+
+A boundary-dissolving icon. Rockstar redefined.
+
+Let Golden Shake.
+
+Youtube link to 50ft Queenie by PJ Harvey
+
+PJ Harvey is a category of one. 
+
+Lurid and petulant on Rid of Me, sleek and melodic on Stories From The City, haunting and histrionic on Let England Shake. Each new record weaving a sonic netherworld, strung together with its own lore – her music a disguise and a guise, building the ever-evolving enigma of the farm girl from Dorset.
+
+Down By The Water. To Bring You My Love. Man-Size. 50ft Queenie. Good Fortune. Angelene.
+
+Decades of music shaped by What Polly Did Next.
+
+Youtube link to Down By The Water by PJ Harvey
+
+And I feel like
+Some bird of paradise
+
+Guitar, saxophone, piano, autoharp, violin, harmonica. Two books of poetry. Two Mercury Prizes. It’s all within her grasp.
+
+Of late, PJ continues to unfurl in the hallucinatory dreamworld of 2023’s I Inside The Old Year Dying. 
+
+“I’ve never seen a more powerful presence on stage”
+
+Uh Huh.
+
+PJ Harvey. Sunday night at Golden XVII.
+
         `
     },
     {
         name: 'Fontaines D.C.',
         artistImage: fontainesDc,
         bio: `    
-<p>From the Emerald Isle to the Golden Mile.</p>
-<br />
-<p>The new bards of Old Éire. Possibly the hottest band on the planet.</p>
-<br />
-<p>Fontaines D.C. in 3333.</p>
-<br />
-<p><italic>Televised Mind. A Hero’s Death. Jackie Down The Line. Favourite. Boys In The Better Land. I Love You. Starburster.</p>
-<br />
-<p>Big.</p>
-<br />
-<p className="text-gp-red">Youtube Link to Starburster by Fontaines D.C.</p>
-<br />
-<p>Fontaines have been ON ONE since day dot. Songs that scuttle and shake atop romantic lyrical eviscerations, delivered with the heart-denting cadence of Joyce or McGowan. A near perfect debut slinging them straight into the maelstrom.</p>
-<br />
-<p>Dublin in the rain is mine, a pregnant city with a Catholic mind</p>
-<br />
-<p>Prolific, transient, they keep unfolding with each loop.</p>
-<br />
-<p>Apparently rock & roll is still for poets. And poets can still change the fucking world.</p>
-<br />
-<p className="text-gp-red">Youtube Link to A Hero’s Death by Fontaines D.C.</p>
-<br />
-<p>“Fontaines write songs like they’ve been locked in a cave after being forced to notice everything there is to know about the world and the human condition”</p>
-<br />
-<p><italic>Romance</italic>, their fourth in six, is an eye-wobbling leap into the neon abyss. A rave-y stadium-sized kinda record. Shiny and frayed, Fontaines D.C. have kicked over the sandbox and found a whole new groove. Deep within, far without.</p>
-<br />
-<p><italic>Maybe romance is a place</italic></p>
-<br />
-<p>Sunday night. Eucalyptic.</p>
+
+From the Emerald Isle to the Golden Mile.  
+
+The new bards of Old Éire. Possibly the hottest band on the planet.
+
+Fontaines D.C. in 3333.
+
+Televised Mind. A Hero’s Death. Jackie Down The Line. Favourite. Boys In The Better Land. I Love You. Starburster.
+
+Big.
+
+Youtube Link to Starburster by Fontaines D.C.
+
+Fontaines have been ON ONE since day dot. Songs that scuttle and shake atop romantic lyrical eviscerations, delivered with the heart-denting cadence of Joyce or McGowan. A near perfect debut slinging them straight into the maelstrom.
+
+Dublin in the rain is mine, a pregnant city with a Catholic mind
+
+Prolific, transient, they keep unfolding with each loop. 
+
+Apparently rock & roll is still for poets. And poets can still change the fucking world. 
+
+Youtube Link to A Hero’s Death by Fontaines D.C.
+
+“Fontaines write songs like they’ve been locked in a cave after being forced to notice everything there is to know about the world and the human condition”
+
+Romance, their fourth in six, is an eye-wobbling leap into the neon abyss. A rave-y stadium-sized kinda record. Shiny and frayed, Fontaines D.C. have kicked over the sandbox and found a whole new groove. Deep within, far without.
+
+Maybe romance is a place
+
+Sunday night. Eucalyptic. 
 
         `
     },
