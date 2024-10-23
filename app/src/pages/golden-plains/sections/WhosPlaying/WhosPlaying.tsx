@@ -27,32 +27,61 @@ import bahamadia from '../../assets/artists/bahamadia.png';
 import adriana from '../../assets/artists/adriana.png';
 import twomanydjs from '../../assets/artists/2manydjs.png';
 
+
+
+
+
+function WhosPlayingModal(){
+
+
+
+    return(
+        <div>
+            <header className="grid-col-12 bg-gp-green">
+
+            </header>
+            <main className="grid-col-12 bg-gp-green">
+                <div className="col-span-12 md:col-span-6">
+
+                </div>
+                <div className="col-span-12 md:col-span-6">
+                    
+                </div>
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+    )
+}
+
+
+
+
+
 export default function WhosPlaying() {
 
-    const artistImages = artistCards.map(({name, artistImage}, index) => {
-        return(
-           
-            <img id={`artist-${index}`} className="w-full h-auto" src={require( `${artistImage}`)} alt={name} />
-        
-            )
+    const artistImages = artistCards.map(({ name, artistImage }, index) => {
+        return (
+
+            <img id={`artist-${index}`} className="w-full h-auto" src={artistImage} alt={name} />
+
+        )
     });
 
     const [currentImage, setCurrentImage] = useState('pjHarvey');
 
-    const handleArtistHover = (artistImage: string ) => {
+    const handleArtistHover = (artistImage: string) => {
         setCurrentImage(artistImage);
         showCurrentImage();
     }
 
     const showCurrentImage = () => {
         return (
-            <img  className="w-full h-auto" src={require( `${currentImage}`)} alt='Home Page Artist' />
-        
+            <img className="w-full h-auto" src={currentImage} alt='Home Page Artist' />
+
         )
     }
-
-
-
 
     const artistNames = artistCards.map(({ name, artistImage }, index) => {
         switch (index % 4) {
@@ -67,7 +96,7 @@ export default function WhosPlaying() {
             case 1:
                 return (
                     <h1 id={name.toLowerCase().replace(/\s/g, '-')} key={index} className="font-gp-title text-gp-red text-xl lg:text-6xl uppercase text-center hover:blur-sm hover:shadow-sm"
-                    onMouseOver={() => handleArtistHover(artistImage)}
+                        onMouseOver={() => handleArtistHover(artistImage)}
                     >
                         {name}
                     </h1>
@@ -75,7 +104,7 @@ export default function WhosPlaying() {
             case 2:
                 return (
                     <h1 id={name.toLowerCase().replace(/\s/g, '-')} key={index} className="font-gp-title text-gp-yellow text-xl lg:text-6xl uppercase text-center hover:blur-sm hover:shadow-sm"
-                    onMouseOver={() => handleArtistHover(artistImage)}
+                        onMouseOver={() => handleArtistHover(artistImage)}
                     >
                         {name}
                     </h1>
@@ -83,7 +112,7 @@ export default function WhosPlaying() {
             case 3:
                 return (
                     <h1 id={name.toLowerCase().replace(/\s/g, '-')} key={index} className="font-gp-title text-gp-dark-blue text-xl lg:text-6xl uppercase text-center hover:blur-sm hover:shadow-sm"
-                    onMouseOver={() => handleArtistHover(artistImage)}
+                        onMouseOver={() => handleArtistHover(artistImage)}
                     >
                         {name}
                     </h1>
@@ -91,7 +120,7 @@ export default function WhosPlaying() {
             default:
                 return (
                     <h1 id={name.toLowerCase().replace(/\s/g, '-')} key={index} className="font-gp-title text-gp-green text-xl lg:text-6xl uppercase text-center hover:blur-sm hover:shadow-sm"
-                    onMouseOver={() => handleArtistHover(artistImage)}
+                        onMouseOver={() => handleArtistHover(artistImage)}
                     >
                         {name}
                     </h1>
@@ -99,12 +128,10 @@ export default function WhosPlaying() {
         }
     })
 
-   
-
     return (
         <>
 
-            <div id="whos-playing" className="grid grid-cols-12 mt-24 mb-24 pt-12">
+            <div id="whos-playing" className="grid grid-cols-12 mt-24 mb-48 pt-12">
                 <div className="col-span-12 lg:col-span-6">
                     <h1 className="font-gp-title text-gp-red text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center m-auto">
                         WHO'S PLAYING
@@ -119,22 +146,18 @@ export default function WhosPlaying() {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-12 bg-gp-light-blue h-">
-                <div className="col-span-12 md:col-span-6 p-12 overflow-y-scroll ">
+            <div className="grid grid-cols-12 bg-gp-light-blue">
+                <div className="col-span-12 md:col-span-6 p-12  h-[48rem] overflow-y-scroll ">
                     {artistNames}
                 </div>
-                <div className="hidden md:block md:col-span-6">
-                   <img src={artistCards[0].artistImage} alt="PJ Harvey" />
+                <div className="hidden md:block md:col-span-6 h-[48rem] overflow-y-hidden">
+                    <p>Current Image</p>
+                    {showCurrentImage()}
+
                 </div>
             </div>
-            <div>
-                <p>Current Image</p>
-                {showCurrentImage()}
-            </div>
-            <div>
-                <p>Images</p>
-                {artistImages}
-            </div>
+
+
         </>
 
 

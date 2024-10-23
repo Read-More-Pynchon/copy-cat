@@ -34,7 +34,7 @@ interface ArtistCard {
 export const artistCards: ArtistCard[] = [
     {
         name: 'PJ Harvey',
-        artistImage: pjHarvey ,
+        artistImage: pjHarvey,
         bio: `      
         <p>30 years ago Aunty cracked open a good fortune cookie, and finally the prophecy is manifest:</p>
         <br />
