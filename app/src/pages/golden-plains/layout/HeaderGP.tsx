@@ -70,7 +70,7 @@ export default function HeaderGP() {
 
     const navigationText: NavigationItem[] = [
         {
-            title: { item: "Who's Playing", url: "#/whos-playing" },
+            title: { item: "Who's Playing", url: "#whos-playing" },
         },
         {
             title: { item: "What Goes On", url: "#!" },

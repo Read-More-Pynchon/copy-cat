@@ -91,7 +91,7 @@ export default function WhosPlaying() {
 
                 <button
                     onClick={() => showSelectedArtist(name)}
-                    className="font-gp-title text-gp-green hover:text-gp-yellow hover:blur-sm text-4xl md:text-6xl"
+                    className="font-gp-title text-gp-green hover:text-gp-yellow hover:blur-sm text-2xl md:text-6xl"
                 >
                     {` ${name}. `}
                 </button>
