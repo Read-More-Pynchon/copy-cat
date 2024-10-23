@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/copy-cat/static/css/main.336ac10c.css",
-    "main.js": "/copy-cat/static/js/main.a4f9d751.js",
+    "main.css": "/copy-cat/static/css/main.d70af4b3.css",
+    "main.js": "/copy-cat/static/js/main.43f15340.js",
     "static/js/453.a6a97343.chunk.js": "/copy-cat/static/js/453.a6a97343.chunk.js",
     "static/media/hermanos-gutierrez.png": "/copy-cat/static/media/hermanos-gutierrez.c3e92fa7277060226dd2.png",
     "static/media/adriana.png": "/copy-cat/static/media/adriana.c902735edaebba0b0e70.png",
@@ -41,12 +41,12 @@
     "static/media/Strasua.otf": "/copy-cat/static/media/Strasua.62d5a916e312116e0e2f.otf",
     "static/media/unusual-index-media-block-1.svg": "/copy-cat/static/media/unusual-index-media-block-1.a24e6420f90750563a9dec4e05270098.svg",
     "index.html": "/copy-cat/index.html",
-    "main.336ac10c.css.map": "/copy-cat/static/css/main.336ac10c.css.map",
-    "main.a4f9d751.js.map": "/copy-cat/static/js/main.a4f9d751.js.map",
+    "main.d70af4b3.css.map": "/copy-cat/static/css/main.d70af4b3.css.map",
+    "main.43f15340.js.map": "/copy-cat/static/js/main.43f15340.js.map",
     "453.a6a97343.chunk.js.map": "/copy-cat/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.336ac10c.css",
-    "static/js/main.a4f9d751.js"
+    "static/css/main.d70af4b3.css",
+    "static/js/main.43f15340.js"
   ]
 }
